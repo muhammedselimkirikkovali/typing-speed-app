@@ -1,0 +1,68 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-field {
+  width: 300px;
+  height: 20px;
+  padding: 10px;
+  border: 1px solid rgb(165, 161, 161);
+  border-radius: 4px;
+  font-size: large;
+}
+
+.word-field {
+  width: 50%;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  font-size: large;
+  border: 1px solid rgb(165, 161, 161);
+  padding: 15px;
+}
+
+.word-container {
+  width: auto;
+  padding: 2px;
+  margin: 0 3px;
+}
+
+.word-container:hover {
+  background: #c4c3c39f;
+  border-radius: 4px;
+}
+
+.counter-field {
+  display: flex;
+  font-size: large;
+  border: 1px solid rgb(165, 161, 161);
+  padding: 0 15px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  border-radius: 4px;
+  width: 70px;
+}
+
+.correct {
+  color: green;
+}
+
+.incorrect {
+  color: red;
+}
+
+.result {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
